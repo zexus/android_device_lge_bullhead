@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/gps.conf:system/etc/gps.conf
 
+# Xposed configuration
+PRODUCT_COPY_FILES += \
+    device/lge/bullhead/xposed.prop:system/xposed.prop
+
 # GPS
 PRODUCT_PACKAGES += \
     libgps.utils \
